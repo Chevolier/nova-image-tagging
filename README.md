@@ -5,7 +5,9 @@ conda create -n nova python=3.10 -y
 conda activate nova
 
 pip install uv
-uv pip install pandas boto3 sagemaker matplotlib
+uv pip install pandas boto3 sagemaker matplotlib openpyxl
+
+pip install scikit-learn
 ```
 
 ## 数据介绍
