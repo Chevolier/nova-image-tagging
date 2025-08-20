@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Model checkpoints and outputs
+checkpoints/
+grpo_qwen_7b_video/
+*.model
+*.checkpoint
+
+# Data directories
+data/
+preprocessed_frames_64/
+
+# Logs
+logs/
+*.log
+*.out
+log.out
+out.log
+out_grpo.log
+
+# Wandb
+wandb/
+.wandb/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# DeepSpeed
+*.deepspeed_config
+
+# HuggingFace cache
+.cache/
+.huggingface/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
