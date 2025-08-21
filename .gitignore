@@ -90,3 +90,4 @@ Thumbs.db
 *.temp
 temp/
 tmp/
+outputs/
